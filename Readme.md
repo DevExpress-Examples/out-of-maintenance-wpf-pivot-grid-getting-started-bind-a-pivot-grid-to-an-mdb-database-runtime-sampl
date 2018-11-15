@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfPivot_GettingStarted/MainWindow.xaml)
+* [MainWindow.xaml.cs](./CS/WpfPivot_GettingStarted/MainWindow.xaml.cs)
+<!-- default file list end -->
 # WPF Pivot Grid - Getting Started - Bind a Pivot Grid to an MDB Database (Runtime sample)
 
 
