@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>WpfPivot_GettingStarted_VB</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Platforms>x86;AnyCPU</Platforms>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.PivotGrid.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.PivotGrid" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="21.1.*-*" />
+	<PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <None Update="nwind.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
