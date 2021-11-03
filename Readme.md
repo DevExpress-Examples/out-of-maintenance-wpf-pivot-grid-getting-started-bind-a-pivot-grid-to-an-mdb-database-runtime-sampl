@@ -8,7 +8,7 @@
 
 * [MainWindow.xaml](./CS/WpfPivot_GettingStarted/MainWindow.xaml)
 * [MainWindow.xaml.cs](./CS/WpfPivot_GettingStarted/MainWindow.xaml.cs)
-* .NET Framework Project: [CS](./CS/WpfPivot_GettingStarted.sln)([VB](./VB/WpfPivot_GettingStarted.sln))/ .NET 5 Project: [CS](./CS/WpfPivot_GettingStarted.Net5.sln)([VB](./VB/WpfPivot_GettingStarted.Net5.sln))
+* .NET Framework Project: [CS](./CS/WpfPivot_GettingStarted.sln)([VB](./VB/WpfPivot_GettingStarted_VB.sln))/ .NET 5 Project: [CS](./CS/WpfPivot_GettingStarted.Net5.sln)([VB](./VB/WpfPivot_GettingStarted_VB.Net5.sln))
 <!-- default file list end -->
 # WPF Pivot Grid - Getting Started - Bind a Pivot Grid to an MDB Database (Runtime sample)
 
