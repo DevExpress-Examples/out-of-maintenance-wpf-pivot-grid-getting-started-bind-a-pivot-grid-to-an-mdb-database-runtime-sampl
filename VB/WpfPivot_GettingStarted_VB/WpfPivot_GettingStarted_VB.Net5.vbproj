@@ -3,8 +3,7 @@
     <OptionInfer>On</OptionInfer>
     <TargetFramework>net5.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace>WpfPivot_GettingStarted_VB</RootNamespace>
     <AssemblyName>WpfPivot_GettingStarted_VB</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
